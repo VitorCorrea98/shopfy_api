@@ -1,5 +1,5 @@
 import express from 'express';
-// import cors from 'cors';
+import cors from 'cors';
 import dotenv from 'dotenv';
 import { calculateFreight } from './frenet';
 
@@ -9,9 +9,10 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // CORS - Só permite chamadas vindo da URL específica do seu Shopify
-// app.use(cors({
-//   origin: 'https://www.shopvalen.com.br'
-// }));
+app.use(cors({
+  origin: 'https://www.shopvalen.com.br',
+  methods: ['POST'],
+}));
 
 app.use(express.json());
 
