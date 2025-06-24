@@ -1,0 +1,4 @@
+.env
+*lock.yaml
+dist
+node_modules
