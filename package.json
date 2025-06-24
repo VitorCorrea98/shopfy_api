@@ -2,7 +2,7 @@
   "name": "shopfy_api",
   "version": "1.0.0",
   "main": "dist/index.js",
-  "packageManager": "pnpm@latest",
+  "packageManager": "pnpm@10.12.1",
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
     "build": "tsc",
