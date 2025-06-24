@@ -20,9 +20,6 @@ importers:
       express:
         specifier: ^4.18.2
         version: 4.21.2
-      shopfy_api:
-        specifier: 'link:'
-        version: 'link:'
     devDependencies:
       '@types/express':
         specifier: ^4.17.17
